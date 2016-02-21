@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>job</title>
+	<meta charset="uft-8">
+	<link rel="stylesheet" type="text/css" href="/assets/job.scss">
+</head>
+<body>
+<div class="header"><h1>職業一覧</h1></div>
+<div class="content">
+<div class="box1">
+        <%= link_to "IT&プログラマー", programmer_path, class: "btn2 radius-btn" %>
+        <%= link_to "人材コンサル", consulting_path, class: "btn2 radius-btn2" %>
+        </div>
+<div class="box2">
+        <%= link_to "塾講師", teacher_path, class: "btn2 radius-btn3" %>
+        <%= link_to "経営コンサル", management_path, class: "btn2 radius-btn4" %>
+        <%= link_to "カフェ&レストラン", cafe_path, class: "btn2 radius-btn5" %>
+        </div>
+        </div>
+</body>
+</html>

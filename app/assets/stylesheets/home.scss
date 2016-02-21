@@ -1,0 +1,297 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	height: 105px;
+	width: 100%;
+	background-color: yellow;
+}
+.slideshow{
+	height: 600px;
+	width: 100%;
+    padding-top: 80px;
+}
+
+.contents{
+	height: 2000px;
+	width: 70%;
+	background-color: none;
+	float: left;
+	padding-right: 10%;
+	padding-left: 70px;
+}
+.sidebar{
+	height: 950px;
+	width: 30%;
+	float: left;
+	text-align: center;
+	border: 3px solid black;
+	background-color: none;
+}
+#headline h1{
+	font-size: 28px;
+	padding:20px;
+	border-left: 6px solid #00A2FC;
+	margin:15px;  
+}
+.arrows2{
+	margin-right: 15px;
+	margin-top: 30px;
+}
+/*
+#collapseSample1{
+	width: 800px;
+	margin-left: 22%;
+	margin-top: 50px;
+}
+
+#collapseSample2{
+	width: 800px;
+	margin-left: 22%;
+	margin-top: 50px;
+}
+
+#collapseSample3{
+	width: 800px;
+	margin-left: 22%;
+	margin-top: 50px;
+}
+
+#collapseSample4{
+	width: 800px;
+	margin-left: 22%;
+}
+
+#collapseSample5{
+	width: 800px;
+	margin-left: 22%;
+}
+
+
+.well{
+	height: 300px;
+	width: 780px;
+}
+.inturnship{
+	height: 100px;
+	width: 750px;
+}
+.inturnship li{
+	height: 120px;
+	width: 120px;
+	margin-left: 40px;
+	margin-top: 55px;
+	background-color:none;
+	list-style: none;
+	float: left;
+}
+.radius-btn{
+	height: 130px;
+	width: 130px;
+	background-color: green;
+	float: left;
+	text-decoration: none;
+	transition: 0.8s;
+}
+.radius-btn:hover{
+	background-color: blue;
+	transition: 0.8s;
+	color: white;
+	border-radius: 60px;
+}
+p {
+	text-align: center;
+	left: 500px;
+}
+
+.arrows{
+	margin-left: 46.5%;
+}*/
+/*ボタン*/
+
+.side-btn{
+	height: 110px;
+	width: 200px;
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+	border-radius: 60px;
+	text-align: center;
+	border: 1px solid transparent;
+	display:block;
+	cursor: pointer;
+	background-color: #ffef3b;
+	padding-top: 40px;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+/*
+.side-btn:hover{
+	background-color: orange;
+	transition: 1s;
+	color: white;
+}*/
+.btn-default{
+	height: 40px;
+	width: 130px;
+	background-color: #D8D8D8;
+	text-align: center;
+	border: 1px solid transparent;
+	transition: 0.8s;
+}
+.btn-defaultt{
+	height: 40px;
+	width: 210px;
+	background-color: #D8D8D8;
+	text-align: center;
+	border: 1px solid transparent;
+	transition: 0.8s;
+}
+.btn-default2{
+	height: 40px;
+	width: 140px;
+	background-color: #D8D8D8;
+	text-align: center;
+	border: 1px solid transparent;
+	transition: 0.8s;
+}
+.btn {
+  padding: 8px 24px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.btn2 {
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 53px; 
+}
+.btn3 {
+  color:white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 54px; 
+}
+p{
+	font-size: 18px;
+}
+span{
+	color: red;
+}
+
+/*職業ボタン*/
+.work1{
+	height: 150px;
+	width: 100%;
+	background-color: none;
+}
+.work2{
+	height: 150px;
+	width: 100%;
+	background-color: none;
+}
+.work3{
+	height: 180px;
+	width: 100%;
+	background-color: none;
+}
+
+
+.radius-btn{
+    height: 140px;
+    width: 140px;
+    background-color: #FFBF00;
+    float: left;
+    text-decoration: none;
+    transition: 0.8s;
+    margin-top: 10px;
+    margin-left: 310px;
+    border-radius: 140px;
+}
+.radius-btn2{
+    height: 140px;
+    width: 140px;
+    background-color: #FFBF00;
+    float: left;
+    text-decoration: none;
+    transition: 0.8s;
+    margin-top: 5px;
+    margin-left: 120px;
+    border-radius: 140px;
+}
+.radius-btn3{
+    height: 140px;
+    width: 140px;
+    background-color: #FFBF00;
+    float: right;
+    text-decoration: none;
+    transition: 0.8s;
+    margin-top: 5px;
+    margin-right: 160px;
+    border-radius: 140px;
+}
+.radius-btn4{
+    height: 140px;
+    width: 140px;
+    background-color: #FFBF00;
+    float: left;
+    text-decoration: none;
+    transition: 0.8s;
+    margin-top: 30px;
+    margin-left: 200px;
+    border-radius: 140px;
+}
+.radius-btn5{
+    height: 140px;
+    width: 140px;
+    background-color: #FFBF00;
+    float: left;
+    text-decoration: none;
+    transition: 0.8s;
+    margin-top: 30px;
+    margin-left: 80px;
+    border-radius: 140px;
+}
+/*
+.radius-btn:hover{
+    background-color: blue;
+    transition: 0.8s;
+    color: white;
+}
+.radius-btn2:hover{
+    background-color:orange;
+    transition: 0.8s;
+    color: white;
+}
+.radius-btn3:hover{
+    background-color:#F79F81;
+    transition: 0.8s;
+    color: white;
+}
+.radius-btn4:hover{
+    background-color:#FE2E2E;
+    transition: 0.8s;
+    color: white;
+}
+.radius-btn5:hover{
+    background-color:#F5A9F2;
+    transition: 0.8s;
+    color: white;
+}*/
+

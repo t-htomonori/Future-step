@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>人材コンサル</title>
+	<meta charset="uft-8">
+	<link rel="stylesheet" type="text/css" href="/assets/designer.scss">
+	<link rel="stylesheet" type="text/css" href="/assets/bootstrap.min.css">
+	<script src="/assets/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="header">
+	<%= image_tag '/assets/人材コンサル・心理職.png' %>
+</div>
+<div class="contents">
+  <div id="headline"><h1>特徴</h1></div>
+	<p>心理職である臨床心理士(心理カウンセラー)や人材コンサルは相手の話や主訴・要望に対し傾聴し、適切な返答やアドバイスを行う役職です。<br></br>
+    仕事のことや人間関係によって精神的な病気になった人をカウンセリングを通して、心理的なケアを行うのが<span>臨床心理士</span>です。<br>
+    <span>人材コンサル</span>は転職希望者に対して希望に沿った企業を探したりアドバイスを与えたり、企業に対して人材の獲得・育成のアドバイスも仕事の一つです。<br>
+    <br>二つの職種で共通しているのは、相手に対して<span>「何ができるか？」「素敵な形に変えてあげたい！」</span><br>という気持ちが強い人にはお勧めしたい職業です。</p>
+
+  <div id="headline"><h1>メリット</h1></div>
+    <p>臨床心理士では人がいるところであれば<span>職場が豊富にある</span>のと、将来、世間からの<span>ニーズが高い職種</span>として挙げられています。相手の気持ちに立った発言や思考などのスキルが得られます。<br>
+    <br>人材コンサルは、特別な資格などがなく自身の経験を基に話し、インターンを通じて、<br><span>「高いコミュニケーション能力・論理的思考・その領域の専門性」</span>などを養うことができます！<br>
+    <br>将来、起業を考えている学生や若い人に取っては欠かせない能力ですね！</p>
+    
+  <div id="headline"><h1>バイト＆インターン</h1></div>
+    <p>人材コンサルはインターンでの仕事が多く、主な業務内容はその職種の専門性の理解から始まります。<br>コンサルタントは人だけでなく<span>企業に対してもアプローチ</span>をするため専門性を学んだあと企業をどう成長させるかを学べる<br>機会が間近で見られるため良い経験になるかと思われます！</br>
+    <br>残念ながら、心理職は専門性が非常に高く、資格を用いるため、<br>バイト・インターンはありませんが実際に働いている現場は多いためそこで働きイメージを湧かせることが可能です。</p>
+
+   <div id="headline"><h1>紹介</h1></div>
+   <p>株式会社ムービン・ストラテジック・キャリア<br>
+   株式会社インテリジェンス</p> 
+
+</div>
+
+<div class="sidebar">
+		<ul class="sidebar1">
+		    <li><%= link_to "トップページ", root_path, class: "btn top-btn" %></li>
+			<li><%= link_to "IT&プログラマー", programmer_path, class: "btn top-btn" %></li>
+            <li><%= link_to "人材コンサル", consulting_path, class: "btn top-btn" %></li>
+            <li><%= link_to "塾講師", teacher_path, class: "btn top-btn" %></li>
+            <li><%= link_to "経営コンサル", management_path, class: "btn top-btn" %></li>
+            <li><%= link_to "カフェ&レストラン", cafe_path, class: "btn top-btn" %></li>
+		</ul>
+<div class="sidebar2">
+		<p>
+			<%= link_to "サイト概要", root_path, class: "btn top-btn" %>
+		</p>
+		<div class="arrows2">
+<%= image_tag '/assets/矢印２.png',:size => '50x50' %>
+</div>
+<p>
+		<%= link_to "職種一覧", job_path, class: "btn top-btn" %>
+	</p>
+	<div class="arrows2">
+<%= image_tag '/assets/矢印２.png',:size => '50x50' %>
+</div>
+
+<p>
+		<%= link_to "バイト&インターン", job_path, class: "btn top-btn" %>
+	</p>
+	<div class="arrows2">
+<%= image_tag '/assets/矢印２.png',:size => '50x50' %>
+</div>
+
+<p>
+		<%= link_to "体験談&レビュー", notes_path, class: "btn top-btn" %>
+	</p>
+</div>
+</div>
+
+
+<div class="arrows">
+<%= image_tag '/assets/矢印２.png',:size => '100x100' %>
+</div>
+
+<div class="footer">
+	<%= link_to "バイト&インターン", job_path, class: "side-btn" %>
+</div>
+<script src="/assets/bootstrap.min.js"></script>
+</div>
+</body>
+</html>

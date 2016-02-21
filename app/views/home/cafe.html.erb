@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IT系</title>
+	<meta charset="uft-8">
+	<link rel="stylesheet" type="text/css" href="/assets/cafe.scss">
+	<link rel="stylesheet" type="text/css" href="/assets/bootstrap.min.css">
+	<script src="/assets/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="header">
+	<%= image_tag '/assets/カフェ・レストラン.png' %>
+</div>
+<div class="contents">
+ <div id="headline"><h1>特徴</h1></div>
+   <p>レストラン・カフェといっても種類は非常に多く存在し、学べることもお店の系統によって違います。その中でも今回は<span>英語力</span>に絞って説明します。<br>将来英語に携わる仕事に就きたい、英語が話せるようになりたい、そのように考えている方は多いのではないのでしょうか？<br>英語力を上げるために参考書などを利用している方もたくさんいるでしょう。もちろん、それらを勉強することは大切です。<br>しかし、話せるようになるためには、英語を使った<span>コミュニケーション</span>が欠かせないものとなります。<br>今回、英語力をUPできる一つの方法として、インターンではなく身近なバイトでおすすめのものを紹介していきます。</p>
+<div id="headline"><h1>メリット</h1></div>
+<p>バイトを通して<span>英語力がUP</span>できることです。<br>また海外に行きたい人、将来英語に携わる仕事に就きたい人は、実際に英語を使う経験をすることで<span>自信</span>につながります。</p>
+ <div id="headline"><h1>バイト紹介</h1></div>
+ <p>英語に携わるバイトはたくさんあります。今回はその中から厳選したものを紹介します。</p>
+ <div class="subhead"><h3>〜観光客の多いレストラン・カフェ〜</h3></div>
+ <p>現在、様々な場所に海外からの多くの観光客が見受けられます。<br></br>
+	観光客の多いレストランやカフェでバイトをすれば、<span>日本に居ながら海外の雰囲気を味わえる</span>と思います。<br></br>
+	さらに、接客の際に海外のお客様と<span>積極的に英語で会話をしていく</span>ことで英語力のUPにつながります。<br></br>
+	最初は上手に話せないかもしれませんが、お客さんとの会話を通して、<span>楽しく英語をUPさせることができます！</span><br></br>
+	また、お客さんだけではなく、そのような所で働いている人も、<span>海外好きが多くてとっても楽しい</span>です。<br>そのような方たちと一緒にバイトをすることで、<span>英語学習のモチベーションもあがること間違いなし！</span></p>
+ 
+ <div class="subhead"><h3>〜国際空港内のお土産屋さん〜</h3></div><br>
+ <p>空港が通える範囲内であれば、ぜひそこでバイトをしてみましょう！<br></br>
+    空港は、いうまでもありませんが海外の方がたくさんいます。<span>毎日といっていいほど英語に携われる</span>のではないでしょうか？<br></br>英語を使う機会が多いのできっと<span>上達も早い</span>はずです。通える範囲に空港がある方は、一度試してみてはいかがでしょう！</p>
+ 
+ <h2><br></br>英語を少しでも上達させたいという気持ちのある方は、<br></br>このようなバイトを経験してみてください。<span>今から行動に移しましょう！</span></h2>
+ </div>
+<div class="sidebar">
+		<ul class="sidebar1">
+		    <li><%= link_to "トップページ", root_path, class: "btn top-btn" %></li>
+			<li><%= link_to "IT&プログラマー", programmer_path, class: "btn top-btn" %></li>
+            <li><%= link_to "人材コンサル", consulting_path, class: "btn top-btn" %></li>
+            <li><%= link_to "塾講師", teacher_path, class: "btn top-btn" %></li>
+            <li><%= link_to "経営コンサル", management_path, class: "btn top-btn" %></li>
+            <li><%= link_to "カフェ&レストラン", cafe_path, class: "btn top-btn" %></li>
+		</ul>
+
+<div class="sidebar2">
+		<p>
+			<%= link_to "サイト概要", root_path, class: "btn top-btn" %>
+		</p>
+		<div class="arrows2">
+<%= image_tag '/assets/矢印２.png',:size => '50x50' %>
+</div>
+<p>
+		<%= link_to "職種一覧", job_path, class: "btn top-btn" %>
+	</p>
+	<div class="arrows2">
+<%= image_tag '/assets/矢印２.png',:size => '50x50' %>
+</div>
+
+<p>
+		<%= link_to "バイト&インターン", job_path, class: "btn top-btn" %>
+	</p>
+	<div class="arrows2">
+<%= image_tag '/assets/矢印２.png',:size => '50x50' %>
+</div>
+
+<p>
+		<%= link_to "体験談&レビュー", notes_path, class: "btn top-btn" %>
+	</p>
+</div>
+</div>
+<div class="arrows">
+<%= image_tag '/assets/矢印２.png',:size => '100x100' %>
+</div>
+
+<div class="footer">
+	<%= link_to "バイト&インターン", job_path, class: "side-btn" %>
+</div>
+<script src="/assets/bootstrap.min.js"></script>
+</div>
+</body>
+</html>

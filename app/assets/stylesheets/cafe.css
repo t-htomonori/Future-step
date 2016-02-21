@@ -1,0 +1,134 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	height: 200px;
+	width: 100%
+}
+.header-left{
+	float: left;
+	height: 100px;
+}
+.header-left h2{
+	color: white;
+	margin: 30px;
+}
+.contents{
+	height: 1400px;
+	width: 85%;
+	float: right;
+	background: radial-gradient(ellipse farthest-corner at left top, white,#E0F2F7,white,#E0F2F7);
+	padding-right: 10%;
+	padding-left: 90px;
+
+}
+#headline h1{
+	font-size: 28px;
+	padding:20px;
+	border-left: 6px solid #00A2FC;
+	margin:15px;  
+}
+.subhead{
+	height: 40px;
+	background-color:none;
+	width: 500px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+p{
+	font-size: 18px;
+}
+span{
+	color: red;
+}
+
+.sidebar{
+	height: 1400px;
+	width:15%;
+	padding: 10px;
+	background:linear-gradient(#CEF6F5,#A9D0F5,white);
+	text-align: center;
+	float: left;
+}
+.sidebar li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+.sidebar .btn{
+	width: 165px;
+}
+.side-btn{
+	height: 110px;
+	width: 200px;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	border-radius: 60px;
+	text-align: center;
+	border: 1px solid transparent;
+	display:block;
+	cursor: pointer;
+	background-color: green;
+	padding-top: 40px;
+	margin-left: 618px;
+	margin-top: 10px;
+}
+.side-btn:hover{
+	background-color: orange;
+	transition: 1s;
+	color: white;
+}
+.sidebar2{
+	float: left;
+	height: 520px;
+	width: 15%;
+	margin-top: 40px;
+	padding-left: 15px;
+	padding-top: 10px;
+	background-color:none;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.top-btn{
+	width: 100px;
+	background-color: white;
+	color: black;
+}
+.top-btn:hover{
+	background-color:#81F781;
+	font-color: white;
+	transition: 0.8s;
+}
+
+/*矢印のデザイン*/
+.arrows{
+	margin-left: 46.5%;
+}
+.arrows2{
+	margin-left: 55px;
+}
+/*bootstrapのデザイン*/
+#collapseSample3{
+	width: 800px;
+	margin-left: 22%;
+}
+.well{
+	height: 150px;
+}
+.footer{
+	height: 300px;
+}
+.footer p {
+	text-align: center;
+	left: 500px;
+}

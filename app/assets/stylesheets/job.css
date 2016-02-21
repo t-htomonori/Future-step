@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.header{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background: radial-gradient(ellipse farthest-corner at left top, white,#E0F2F7,white,#E0F2F7);
+}
+/*ボタン*/
+.btn2 {
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 53px; 
+}
+.radius-btn{
+    height: 200px;
+    width: 250px;
+    background-color: green;
+    float: left;
+    text-decoration: none;
+    transition: 0.8s;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+.radius-btn2{
+    height: 200px;
+    width: 250px;
+    background-color: green;
+    float: left;
+    text-decoration: none;
+    transition: 0.8s;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+.radius-btn3{
+    height: 200px;
+    width: 250px;
+    background-color: green;
+    float: left;
+    text-decoration: none;
+    transition: 0.8s;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+.radius-btn4{
+    height: 200px;
+    width: 250px;
+    background-color: green;
+    float: left;
+    text-decoration: none;
+    transition: 0.8s;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+.radius-btn5{
+    height: 200px;
+    width: 250px;
+    background-color: green;
+    float: left;
+    text-decoration: none;
+    transition: 0.8s;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+/*ボタンホバー時*/
+.radius-btn:hover{
+    background-color: blue;
+    transition: 0.8s;
+    color: white;
+    border-radius: 140px;
+}
+.radius-btn2:hover{
+    background-color:orange;
+    transition: 0.8s;
+    color: white;
+    border-radius: 140px;
+}
+.radius-btn3:hover{
+    background-color:#F79F81;
+    transition: 0.8s;
+    color: white;
+    border-radius: 140px;
+}
+.radius-btn4:hover{
+    background-color:#FE2E2E;
+    transition: 0.8s;
+    color: white;
+    border-radius: 140px;
+}
+.radius-btn5:hover{
+    background-color:#F5A9F2;
+    transition: 0.8s;
+    color: white;
+    border-radius: 140px;
+}
+
+.content{
+    height: 730px;
+    width: 100%;
+    background: radial-gradient(ellipse farthest-corner at left top, white,#E0F2F7,white,#E0F2F7);
+}
+.box1{
+    height: 400px;
+    width: 710px;
+    background-color:none;
+    margin-left: 430px;
+}
+.box2{
+    height: 400px;
+    width:1100px;
+    background-color:none;
+    margin-left: 250px;
+}

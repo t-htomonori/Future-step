@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>slider</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/assets/slider-pro.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/home.scss">
+
+    <script src="/assets/jquery.sliderPro.min.js"></script>
+    <script src="/assets/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="header"></div>
+
+<div class="slideshow">
+<div class="slider-pro" id="my-slider">
+    <div class="sp-slides">
+        <!-- Slide 1 -->
+        <div class="sp-slide">
+            <%= image_tag '/assets/英語.png',:size => '950x450' %>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="sp-slide">
+            <%= image_tag '/assets/programming1.png',:size => '950x450' %>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="sp-slide">
+            <%= image_tag '/assets/コンサル.png',:size => '950x450' %>
+        </div>
+
+
+
+    </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+    $( document ).ready(function( $ ) {
+        $( '#my-slider' ).sliderPro({
+            width: 960,
+            height: 450,
+            arrows: true,
+            buttons: true,
+            waitForLayers: true,
+            thumbnailWidth: 200,
+            thumbnailHeight: 100,
+            thumbnailPointer: true,
+            autoplay: true,
+            autoScaleLayers: true,
+            breakpoints: {
+                500: {
+                    thumbnailWidth: 120,
+                    thumbnailHeight: 50
+                }
+            }
+        });
+    });
+</script>
+</div>
+<script type="text/javascript" src="/assets/jquery.sliderPro.min.js"></script>
+<div class="sidebar">
+<h3>〜ナビゲーション〜</h3>
+     <%= link_to "サイト概要", root_path, class: "side-btn" %>
+
+<div class="arrows2">
+<%= image_tag '/assets/矢印３.png',:size => '80x80' %>
+</div>
+
+     <%= link_to "職業一覧", job_path, class: "side-btn" %>
+
+<div class="arrows2">
+<%= image_tag '/assets/矢印３.png',:size => '80x80' %>
+</div>
+
+     <%= link_to "バイト&インターン", root_path, class: "side-btn" %>
+
+<div class="arrows2">
+<%= image_tag '/assets/矢印３.png',:size => '80x80' %>
+</div>
+
+     <%= link_to "体験談＆レビュー", notes_path, class: "side-btn" %>
+
+</div>
+<div class="contents">
+<div id="headline"><h1>どんなサイト？</h1></div>
+<p>Future STEPは、「興味のある分野はあるけど、実際どんな職業で今からどんな行動をしていいのかわからない。」という方をサポートするWebサイトです。左サイドバーのナビゲーションに従って順にステップを踏むことであなたの目標の足がけになります。そしてここでは、「IT＆プログラマー,人材コンサル,塾講師,経営コンサル,カフェ＆レストラン」の職業について多くのことを知ることができます。どんな職業なのか。バイトまたはインターンはあるのか。これからどうやって行動すればいいのか。などなど...あなたが知りたいことがここにあります！「やってみたいけど実際はどんな仕事をするの？」「その仕事をするためにはどんなことをすればいいの？」という疑問に答えあなたの創る未来の手助けにしてください。</p>
+
+<div id="headline"><h1>〜Future STEPの使い方〜</h1></div>
+<h3>STEP1</h3>
+ <h2>興味のある職業を選ぶ</h2>
+ <p>Future STEPには、IT＆プログラマー,人材コンサル,塾講師,経営コンサル,カフェ＆レストランの5つの職業があります。この中からあなたが気になるものを選んでください。</p>
+<div class="work1">
+    <%= link_to "IT&プログラマー", programmer_path, class: "btn3 radius-btn" %>
+</div>
+<div class="work2">
+    <%= link_to "人材コンサル", consulting_path, class: "btn3 radius-btn2" %>
+    <%= link_to "塾講師", teacher_path, class: "btn3 radius-btn3" %>
+</div>
+<div class="work3">
+    <%= link_to "経営コンサル", management_path, class: "btn3 radius-btn4" %>
+    <%= link_to "カフェ&レストラン", cafe_path, class: "btn3 radius-btn5" %>
+</div>
+
+<p>気になる職業を選んでクリックするとその職業に関する情報を見ることができます！</p>
+
+<h3>STEP2</h3>
+<h2>気になる職業について知る！</h2>
+   <p>それぞれの職業について、<br></br>
+   どんな特徴があるのか？<br></br>
+   その仕事をするメリットは？<br></br>
+   この仕事だったらバイト？インターン？<br></br>
+   などなどあなたの知りたいことに答えます！<br>
+   書いてある記事を読むだけでも実際はどういう仕事でどんなメリットがあって、<br>
+   どんなところを頑張ればいいのか知ることができます。<br>
+</p>
+
+
+
+
+</div>
+</body>
+</html>
