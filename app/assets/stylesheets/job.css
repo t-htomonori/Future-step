@@ -6,11 +6,11 @@
     height: 70px;
     width: 100%;
     text-align: center;
-    background: radial-gradient(ellipse farthest-corner at left top, white,#E0F2F7,white,#E0F2F7);
+   background-color: yellow;
 }
 /*ボタン*/
 .btn2 {
-  color: white;
+  color: black;
   display: inline-block;
   opacity: 0.8;
   border-radius: 3px;
@@ -23,52 +23,57 @@
 .radius-btn{
     height: 200px;
     width: 250px;
-    background-color: green;
+    background-color: #ffef3b;
     float: left;
     text-decoration: none;
     transition: 0.8s;
     margin-top: 60px;
     margin-right: 100px;
+    border-radius: 30px;
 }
 .radius-btn2{
     height: 200px;
     width: 250px;
-    background-color: green;
+    background-color: #ffef3b;
     float: left;
     text-decoration: none;
     transition: 0.8s;
     margin-top: 60px;
     margin-right: 100px;
+    border-radius: 30px;
 }
 .radius-btn3{
     height: 200px;
     width: 250px;
-    background-color: green;
+    background-color: #ffef3b;
     float: left;
     text-decoration: none;
     transition: 0.8s;
     margin-top: 60px;
     margin-right: 100px;
+    border-radius: 30px;
 }
 .radius-btn4{
     height: 200px;
     width: 250px;
-    background-color: green;
+    background-color: #ffef3b;
     float: left;
     text-decoration: none;
     transition: 0.8s;
     margin-top: 60px;
     margin-right: 100px;
+    border-radius: 30px;
 }
 .radius-btn5{
     height: 200px;
     width: 250px;
-    background-color: green;
+    background-color: #ffef3b;
     float: left;
     text-decoration: none;
     transition: 0.8s;
     margin-top: 60px;
     margin-right: 100px;
+    border-radius: 30px;
 }
 /*ボタンホバー時*/
 .radius-btn:hover{
@@ -105,7 +110,7 @@
 .content{
     height: 730px;
     width: 100%;
-    background: radial-gradient(ellipse farthest-corner at left top, white,#E0F2F7,white,#E0F2F7);
+    background-color: none;
 }
 .box1{
     height: 400px;

@@ -11,6 +11,7 @@
 	height: 600px;
 	width: 100%;
     padding-top: 80px;
+    opacity: 0.5;
 }
 
 .contents{
@@ -32,7 +33,7 @@
 #headline h1{
 	font-size: 28px;
 	padding:20px;
-	border-left: 6px solid #00A2FC;
+	border-left: 6px solid #ffef3b;
 	margin:15px;  
 }
 .arrows2{
@@ -183,10 +184,10 @@ p {
   opacity: 0.8;
   border-radius: 3px;
   border: 1px solid transparent;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   text-align: center;
-  padding-top: 54px; 
+  padding-top: 60px; 
 }
 p{
 	font-size: 18px;
@@ -197,12 +198,12 @@ span{
 
 /*職業ボタン*/
 .work1{
-	height: 150px;
+	height: 160px;
 	width: 100%;
 	background-color: none;
 }
 .work2{
-	height: 150px;
+	height: 160px;
 	width: 100%;
 	background-color: none;
 }
@@ -214,19 +215,19 @@ span{
 
 
 .radius-btn{
-    height: 140px;
-    width: 140px;
+    height: 150px;
+    width: 150px;
     background-color: #FFBF00;
     float: left;
     text-decoration: none;
     transition: 0.8s;
     margin-top: 10px;
-    margin-left: 310px;
+    margin-left: 300px;
     border-radius: 140px;
 }
 .radius-btn2{
-    height: 140px;
-    width: 140px;
+    height: 150px;
+    width: 150px;
     background-color: #FFBF00;
     float: left;
     text-decoration: none;
@@ -236,8 +237,8 @@ span{
     border-radius: 140px;
 }
 .radius-btn3{
-    height: 140px;
-    width: 140px;
+    height: 150px;
+    width: 150px;
     background-color: #FFBF00;
     float: right;
     text-decoration: none;
@@ -247,19 +248,19 @@ span{
     border-radius: 140px;
 }
 .radius-btn4{
-    height: 140px;
-    width: 140px;
+    height: 150px;
+    width: 150px;
     background-color: #FFBF00;
     float: left;
     text-decoration: none;
     transition: 0.8s;
     margin-top: 30px;
-    margin-left: 200px;
+    margin-left: 190px;
     border-radius: 140px;
 }
 .radius-btn5{
-    height: 140px;
-    width: 140px;
+    height: 150px;
+    width: 150px;
     background-color: #FFBF00;
     float: left;
     text-decoration: none;

@@ -9,7 +9,7 @@
 	height: 1000px;
 	width: 67.3%;
 	float: right;
-	background: radial-gradient(ellipse farthest-corner at left top, white,#E0F2F7,white,#E0F2F7);
+	background-color: none;
 	padding-right: 10%;
 	padding-left: 90px;
 }
@@ -18,7 +18,7 @@
 	height: 1000px;
 	width:15%;
 	padding: 10px;
-	background:linear-gradient(#CEF6F5,#A9D0F5,white);
+	background-color: none;
 	text-align: center;
 	float: left;
 }
@@ -56,7 +56,7 @@
 	text-decoration: none;
 }
 .top-btn:hover{
-	background-color:#81F781;
+	background-color:#ffef3b;
 	font-color: white;
 	transition: 0.8s;
 }
@@ -82,7 +82,7 @@
 /* 「投稿する」「保存」ボタン */
 .posting-btn {
   width: 250px;
-  background-color:#28b086;
+  background-color:#ffef3b;
   float: left;
   margin-top: 60px;
   margin-left: 10px;
@@ -107,7 +107,7 @@
 }
 .save-btn{
   width: 100px;
-  background-color: #239b76;
+  background-color: #ffef3b;
   margin-left: 120px;
 }
 .save-btn:hover{
@@ -136,7 +136,7 @@
 }
 .edit-btn{
   width: 40px;
-  background-color:#28b086;
+  background-color:#ffef3b;
   float: left;
   margin:30px;
   text-decoration: none;
@@ -147,7 +147,7 @@
 }
 .destroy-btn{
   width: 40px;
-  background-color:#28b086;
+  background-color:#ffef3b;
   float: left;
   margin:60px;
   text-decoration: none;
@@ -158,7 +158,7 @@
 }
 .destroy2-btn{
   width: 40px;
-  background-color:#28b086;
+  background-color:#ffef3b;
   float: left;
   margin:30px;
   text-decoration: none;
@@ -169,7 +169,7 @@
 }
 .newpost-btn {
   width: 100px;
-  background-color:#28b086;
+  background-color:#ffef3b;
   float: left;
   margin:60px;
   text-decoration: none;
@@ -203,7 +203,7 @@
   margin-left: 100px;
   text-decoration: none;
   width: 40px;
-  background-color:#28b086;
+  background-color:#ffef3b;
   text-align: center;
 }
 .index-btn:hover {

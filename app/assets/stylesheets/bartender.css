@@ -18,7 +18,7 @@
 	height: 1800px;
 	width: 85%;
 	float: right;
-	background: radial-gradient(ellipse farthest-corner at left top, white,#E0F2F7,white,#E0F2F7);
+	background-color: none;
 	padding-right: 10%;
 	padding-left: 90px;
 
@@ -26,7 +26,7 @@
 #headline h1{
 	font-size: 28px;
 	padding:20px;
-	border-left: 6px solid #00A2FC;
+	border-left: 6px solid #ffef3b;
 	margin:15px;  
 }
 .subhead{
@@ -46,8 +46,8 @@ span{
 .sidebar{
 	height: 1700px;
 	width:15%;
-	padding: 10px;
-	background:linear-gradient(#CEF6F5,#A9D0F5,white);
+	padding: 20px;
+	background-color: none;
 	text-align: center;
 	float: left;
 }
@@ -55,6 +55,7 @@ span{
 	list-style: none;
 	margin-bottom: 10px;
 }
+
 .side-btn{
 	height: 110px;
 	width: 200px;
@@ -66,28 +67,7 @@ span{
 	border: 1px solid transparent;
 	display:block;
 	cursor: pointer;
-	background-color: green;
-	padding-top: 40px;
-	margin-left: 618px;
-	margin-top: 10px;
-}
-.side-btn:hover{
-	background-color: orange;
-	transition: 1s;
-	color: white;
-}
-.side-btn{
-	height: 110px;
-	width: 200px;
-	font-size: 18px;
-	color: white;
-	text-decoration: none;
-	border-radius: 60px;
-	text-align: center;
-	border: 1px solid transparent;
-	display:block;
-	cursor: pointer;
-	background-color: green;
+	background-color: #ffef3b;
 	padding-top: 40px;
 	margin-left: 618px;
 	margin-top: 10px;
@@ -127,7 +107,7 @@ span{
 	color: black;
 }
 .top-btn:hover{
-	background-color:#81F781;
+	background-color:#ffef3b;
 	font-color: white;
 	transition: 0.8s;
 }
